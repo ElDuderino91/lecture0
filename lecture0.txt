@@ -1,0 +1,13 @@
+                            //Version Control with git//
+
+git is used to keep track of every version you write.
+It's used to sync code from different people
+Good to test a new version without breaking the previous working Version
+you can revert back to a previous version very easily
+github is a website to save git-repositories
+git clone (URL) gets a file from the repository found in the URL
+git add <file> git tracks this file and remembers any changes
+git commit
+git status
+git push // pushes the file to the remote github server
+git pull // downloads the latest version from github to the local memory

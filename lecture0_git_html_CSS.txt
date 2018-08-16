@@ -1,0 +1,65 @@
+                            //Version Control with git//
+
+git is used to keep track of every version you write.
+It's used to sync code from different people
+Good to test a new version without breaking the previous working Version
+you can revert back to a previous version very easily
+github is a website to save git-repositories
+git clone (URL) gets a file from the repository found in the URL
+git add <file> git tracks this file and remembers any changes
+git commit
+git status
+git push // pushes the file to the remote github server
+git pull // downloads the latest version from github to the local memory
+github pages to publish a repository
+
+
+                            // HTML //
+useful tags
+title
+<ul> </ul>
+<ol> </ol>
+<img src="cat.jpg">     // attributes height="200" and width="300" to set size
+                        of image; if only one is specified the other will be
+                        adjusted automatically. Size can be specified as %
+
+<table>                 //starts the table
+    <tr>                //starts a row
+        <th>            //table header
+        <td>            //table data
+
+<from>
+    <input>             // needs a type, name, placeholder etc.
+    <button>            // needs a submit method, route etc.
+
+<div>                   // is a divider in a page can be used for multiple
+                        things. can get an id, which is a unique identifier.
+<span>                  //can be inside a div and given a class="name" which
+                        doesn't have to be unique
+
+
+                            // CSS //
+Cascading Style Sheet
+CSS is used to further style a website
+
+<style>                 // inside the style text you can define the style via
+                        CSS. This keeps HTML and CSS separated. However with
+                        more html pages it is better to outsource CSS into
+                        a completely different file.
+                        <link rel="stylesheet" href="file_name">
+
+<style>
+    div {
+        background-color: teal;
+        width: 100px;
+        height: 200px;
+        margin: 30px                                    // like a invisible border outside
+        padding: 20px;                                  // inside padding with a invisible border
+        font-family: Arial, sans-serif                  //two fonts if browser doesn't have first
+        font-size: 28px;
+        font-weight: bold;
+        border: 3px solid blue;
+    }
+
+#bottom         // to style an element id which name is bottom
+.name           // to style a CSS class which name is name
